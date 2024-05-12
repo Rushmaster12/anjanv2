@@ -16,12 +16,12 @@ module.exports = {
   HANDLERS: process.env.PREFIX || '^[.]',
   BRANCH: "main",
   WARN_COUNT: 3,
-  STICKER_DATA: process.env.STICKER_DATA || "〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»;〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»",
-  BOT_INFO: process.env.BOT_INFO || "〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»;https://i.imgur.com/7ZMfACG.mp4",
-  AUDIO_DATA: process.env.AUDIO_DATA || "〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»;〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»;https://i.imgur.com/U26K4xG.jpeg",
-  ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
-  CAPTION: process.env.CAPTION || "〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»",
-  WORK_TYPE: process.env.WORK_TYPE || "private",
+  STICKER_DATA: process.env.STICKER_DATA || "RUSH-MASTER ː͢»; RUSH-MASTER ː͢»",
+  BOT_INFO: process.env.BOT_INFO || "RUSH-MASTER ː͢»;https://telegra.ph/file/b706a89d89b7bb3c962b2.mp4",
+  AUDIO_DATA: process.env.AUDIO_DATA || "RUSH-MASTER☯️ ː͢»;RUSH-MASTER ː͢»;https://i.imgur.com/HFtDsqa.jpeg",
+  ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
+  CAPTION: process.env.CAPTION || "Rush-Master ː͢»",
+  WORK_TYPE: process.env.WORK_TYPE || "public",
   DATABASE_URL: DATABASE_URL,
   DATABASE:
     DATABASE_URL === "./lib/database.db"
@@ -42,6 +42,6 @@ module.exports = {
         }),
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || " ",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || " ",
-  SUDO: process.env.SUDO || "0",
+  SUDO: process.env.SUDO || "917020728211",
   IMGBB_KEY: ["76a050f031972d9f27e329d767dd988f", "deb80cd12ababea1c9b9a8ad6ce3fab2", "78c84c62b32a88e86daf87dd509a657a"],
 };
